@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:stick",
+    "G": "minecraft:gold_ingot",
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "I I",
+    "G#G",
+    "IRI"
+  ],
+  "result": {
+    "count": 8,
+    "id": "transcontinental:gold_powered_rail"
+  }
+}

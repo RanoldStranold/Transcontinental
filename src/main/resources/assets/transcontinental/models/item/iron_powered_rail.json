@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "transcontinental:block/iron_powered_rail",
+    "layer1": "transcontinental:block/iron_powered_rail_redstone"
+  }
+}

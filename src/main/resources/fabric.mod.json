@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "transcontinental",
+  "version": "${version}",
+  "name": "Transcontinental",
+  "description": "A thoughtful overhaul of Minecraft's Minecarts!",
+  "authors": [
+    "Ranold"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/user/Ranold",
+    "sources": "https://github.com/RanoldStranold/Transcontinental",
+    "issues": "https://github.com/RanoldStranold/Transcontinental/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.ranold.client.transcontinentalClient"
+    ],
+    "main": [
+      "net.ranold.transcontinental"
+    ]
+  },
+  "mixins": [
+    "transcontinental.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

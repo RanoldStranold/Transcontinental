@@ -1,0 +1,10 @@
+{
+  "values": [
+    "transcontinental:copper_rail",
+    "transcontinental:iron_rail",
+    "transcontinental:gold_rail",
+    "transcontinental:iron_powered_rail",
+    "transcontinental:gold_powered_rail",
+    "transcontinental:omega_rail"
+  ]
+}

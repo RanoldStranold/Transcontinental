@@ -1,0 +1,7 @@
+{
+  "parent": "transcontinental:block/template_rail_raised_ne_tinted",
+  "textures": {
+    "rail": "transcontinental:block/iron_powered_rail",
+    "redstone": "transcontinental:block/iron_powered_rail_redstone"
+  }
+}

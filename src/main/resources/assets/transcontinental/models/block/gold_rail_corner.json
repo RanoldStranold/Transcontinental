@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/rail_curved",
+  "textures": {
+    "rail": "transcontinental:block/gold_rail_corner"
+  }
+}

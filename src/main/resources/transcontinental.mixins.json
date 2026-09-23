@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ranold.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AbstractMinecartCollisionMixin",
+    "AbstractMinecartMixin",
+    "NewMinecartBehaviorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
