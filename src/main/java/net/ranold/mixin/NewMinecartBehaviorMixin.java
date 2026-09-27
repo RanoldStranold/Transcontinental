@@ -10,9 +10,9 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.RailShape;
 import net.minecraft.world.phys.Vec3;
+import net.ranold.coupling.TrainSolver;
 import net.ranold.rail.RailSpeeds;
 import net.ranold.registry.TCBlocks;
-import net.ranold.sound.MinecartCollisionSound;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
@@ -27,9 +27,9 @@ public abstract class NewMinecartBehaviorMixin extends MinecartBehavior {
         super(minecart);
     }
 
-    @Inject(method = "tick", at = @At("TAIL"))
-    private void transcontinental$collisionSound(final CallbackInfo ci) {
-        MinecartCollisionSound.tick(this.minecart);
+    @Inject(method = "tick", at = @At("HEAD"))
+    private void transcontinental$solveTrain(final CallbackInfo ci) {
+        TrainSolver.tick(this.minecart);
     }
 
     @Inject(method = "getMaxSpeed", at = @At("HEAD"), cancellable = true)

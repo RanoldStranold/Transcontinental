@@ -4,5 +4,16 @@
   "block.transcontinental.gold_rail": "Gold Rail",
   "block.transcontinental.iron_powered_rail": "Iron Powered Rail",
   "block.transcontinental.gold_powered_rail": "Gold Powered Rail",
-  "block.transcontinental.omega_rail": "Omega Rail"
+  "block.transcontinental.omega_rail": "Omega Rail",
+  "message.transcontinental.coupling.selected": "Chain attached. Use it on another minecart to couple.",
+  "message.transcontinental.coupling.cancelled": "Coupling cancelled.",
+  "message.transcontinental.coupling.already": "These minecarts are already coupled.",
+  "message.transcontinental.coupling.full": "That minecart is already coupled at both ends.",
+  "message.transcontinental.coupling.loop": "Those minecarts are already part of the same train.",
+  "message.transcontinental.coupling.too_far": "Too far apart to couple.",
+  "message.transcontinental.coupling.end_taken": "That end of the minecart is already coupled.",
+  "commands.transcontinental.cartlog.started": "Minecart logging started: %s",
+  "commands.transcontinental.cartlog.stopped": "Minecart logging stopped: %s",
+  "commands.transcontinental.cartlog.idle": "Minecart logging is not running.",
+  "commands.transcontinental.cartlog.failed": "Could not open minecart log: %s"
 }
